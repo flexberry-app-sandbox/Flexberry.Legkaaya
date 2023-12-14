@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-legkaaya-вид-e",
+  "editForm": "i-i-s-legkaaya-вид-e",
+  "external": false,
+  "caption": "Вид",
+  "name": "IISLegkaayaВидL",
+  "className": "ВидL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-вид",
+      "modelProjection": "ВидL"
+    }
+  ]
+}

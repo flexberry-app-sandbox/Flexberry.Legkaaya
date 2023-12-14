@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Корм",
+      "projection": "КормL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Животные",
+      "projection": "ЖивотныеL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клетка",
+      "projection": "КлеткаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Расписание",
+  "name": "IISLegkaayaРасписаниеE",
+  "className": "РасписаниеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-расписание",
+      "modelProjection": "РасписаниеE"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISLegkaayaКорм",
+  "modelName": "i-i-s-legkaaya-корм",
+  "className": "Корм",
+  "nameSpace": "IIS.Legkaaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодКорма",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "название",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КормE",
+      "modelName": "i-i-s-legkaaya-корм",
+      "attrs": [
+        {
+          "name": "кодКорма",
+          "caption": "Код корма",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КормL",
+      "modelName": "i-i-s-legkaaya-корм",
+      "attrs": [
+        {
+          "name": "кодКорма",
+          "caption": "Код корма",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

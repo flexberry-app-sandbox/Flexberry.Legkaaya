@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-legkaaya-расписание-e",
+  "editForm": "i-i-s-legkaaya-расписание-e",
+  "external": false,
+  "caption": "Расписание",
+  "name": "IISLegkaayaРасписаниеL",
+  "className": "РасписаниеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-расписание",
+      "modelProjection": "РасписаниеL"
+    }
+  ]
+}

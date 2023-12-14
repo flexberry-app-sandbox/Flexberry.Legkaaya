@@ -1,0 +1,141 @@
+﻿{
+  "name": "IISLegkaayaЖивотные",
+  "modelName": "i-i-s-legkaaya-животные",
+  "className": "Животные",
+  "nameSpace": "IIS.Legkaaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кличка",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерЖивотного",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-legkaaya-сотрудник",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "сведения",
+      "relatedTo": "i-i-s-legkaaya-сведения",
+      "inverse": "животные"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЖивотныеE",
+      "modelName": "i-i-s-legkaaya-животные",
+      "attrs": [
+        {
+          "name": "номерЖивотного",
+          "caption": "Номер животного",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кличка",
+          "caption": "Кличка",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Ответственный",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Сотрудник",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-legkaaya-сотрудник",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "СведенияE",
+          "caption": "Сведения",
+          "name": "сведения",
+          "relatedTo": "i-i-s-legkaaya-сведения",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЖивотныеL",
+      "modelName": "i-i-s-legkaaya-животные",
+      "attrs": [
+        {
+          "name": "номерЖивотного",
+          "caption": "Номер животного",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кличка",
+          "caption": "Кличка",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-legkaaya-сотрудник",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

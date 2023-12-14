@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-legkaaya-должность-e",
+  "editForm": "i-i-s-legkaaya-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISLegkaayaДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

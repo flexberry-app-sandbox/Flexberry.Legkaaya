@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISLegkaayaКлетка",
+  "modelName": "i-i-s-legkaaya-клетка",
+  "className": "Клетка",
+  "nameSpace": "IIS.Legkaaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерКлетки",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "площадь",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "тип",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлеткаE",
+      "modelName": "i-i-s-legkaaya-клетка",
+      "attrs": [
+        {
+          "name": "номерКлетки",
+          "caption": "Номер клетки",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "площадь",
+          "caption": "Площадь",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КлеткаL",
+      "modelName": "i-i-s-legkaaya-клетка",
+      "attrs": [
+        {
+          "name": "номерКлетки",
+          "caption": "Номер клетки",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "площадь",
+          "caption": "Площадь",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

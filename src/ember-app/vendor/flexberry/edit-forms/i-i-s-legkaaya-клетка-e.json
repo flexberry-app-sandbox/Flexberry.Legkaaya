@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Клетка",
+  "name": "IISLegkaayaКлеткаE",
+  "className": "КлеткаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-клетка",
+      "modelProjection": "КлеткаE"
+    }
+  ]
+}

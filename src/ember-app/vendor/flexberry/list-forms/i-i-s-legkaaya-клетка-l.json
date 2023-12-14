@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-legkaaya-клетка-e",
+  "editForm": "i-i-s-legkaaya-клетка-e",
+  "external": false,
+  "caption": "Клетка",
+  "name": "IISLegkaayaКлеткаL",
+  "className": "КлеткаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-клетка",
+      "modelProjection": "КлеткаL"
+    }
+  ]
+}

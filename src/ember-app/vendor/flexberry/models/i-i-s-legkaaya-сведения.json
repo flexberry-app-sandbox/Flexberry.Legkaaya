@@ -1,0 +1,105 @@
+﻿{
+  "name": "IISLegkaayaСведения",
+  "modelName": "i-i-s-legkaaya-сведения",
+  "className": "Сведения",
+  "nameSpace": "IIS.Legkaaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "вид",
+      "relatedTo": "i-i-s-legkaaya-вид",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клетка",
+      "relatedTo": "i-i-s-legkaaya-клетка",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "животные",
+      "relatedTo": "i-i-s-legkaaya-животные",
+      "inverse": "сведения"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СведенияE",
+      "modelName": "i-i-s-legkaaya-сведения",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Тип",
+          "lookupValueField": "тип",
+          "relationName": "Клетка",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерКлетки",
+              "caption": "Клетка",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Клетка",
+          "name": "клетка",
+          "relatedTo": "i-i-s-legkaaya-клетка",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Вид",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Вид",
+          "name": "вид",
+          "relatedTo": "i-i-s-legkaaya-вид",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

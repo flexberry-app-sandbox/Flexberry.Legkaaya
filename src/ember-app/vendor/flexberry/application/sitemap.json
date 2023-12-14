@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Legkaaya",
+  "applicationTitle": "Legkaaya",
+  "items": [
+    {
+      "link": null,
+      "menuName": "legkaaya",
+      "caption": "Legkaaya",
+      "title": "Legkaaya",
+      "children": [
+        {
+          "link": "i-i-s-legkaaya-животные-l",
+          "menuName": null,
+          "caption": "Животные",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-legkaaya-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-legkaaya-расписание-l",
+          "menuName": null,
+          "caption": "Расписание",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-legkaaya-вид-l",
+          "menuName": null,
+          "caption": "Вид",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-legkaaya-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-legkaaya-клетка-l",
+          "menuName": null,
+          "caption": "Клетка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-legkaaya-корм-l",
+          "menuName": null,
+          "caption": "Корм",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

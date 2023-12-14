@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-legkaaya-животные-e",
+  "editForm": "i-i-s-legkaaya-животные-e",
+  "external": false,
+  "caption": "Животные",
+  "name": "IISLegkaayaЖивотныеL",
+  "className": "ЖивотныеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-животные",
+      "modelProjection": "ЖивотныеL"
+    }
+  ]
+}

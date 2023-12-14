@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-legkaaya-корм-e",
+  "editForm": "i-i-s-legkaaya-корм-e",
+  "external": false,
+  "caption": "Корм",
+  "name": "IISLegkaayaКормL",
+  "className": "КормL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-legkaaya-корм",
+      "modelProjection": "КормL"
+    }
+  ]
+}
