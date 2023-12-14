@@ -4,58 +4,82 @@
   "items": [
     {
       "link": null,
-      "menuName": "legkaaya",
-      "caption": "Legkaaya",
-      "title": "Legkaaya",
+      "menuName": "и-с-з-о-о-п-а-р-к",
+      "caption": "ИС ЗООПАРК",
+      "title": "ИС ЗООПАРК",
       "children": [
         {
-          "link": "i-i-s-legkaaya-животные-l",
-          "menuName": null,
-          "caption": "Животные",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "сотрудники",
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": [
+            {
+              "link": "i-i-s-legkaaya-должность-l",
+              "menuName": null,
+              "caption": "Должность",
+              "title": "Должность",
+              "children": null
+            },
+            {
+              "link": "i-i-s-legkaaya-сотрудник-l",
+              "menuName": null,
+              "caption": "Сотрудник",
+              "title": "Сотрудник",
+              "children": null
+            }
+          ]
         },
         {
-          "link": "i-i-s-legkaaya-должность-l",
-          "menuName": null,
-          "caption": "Должность",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "информация-о-животных",
+          "caption": "Информация о животных",
+          "title": "Информация о животных",
+          "children": [
+            {
+              "link": "i-i-s-legkaaya-вид-l",
+              "menuName": null,
+              "caption": "Вид",
+              "title": "Вид",
+              "children": null
+            },
+            {
+              "link": "i-i-s-legkaaya-животные-l",
+              "menuName": null,
+              "caption": "Животные",
+              "title": "Животные",
+              "children": null
+            }
+          ]
         },
         {
-          "link": "i-i-s-legkaaya-расписание-l",
-          "menuName": null,
-          "caption": "Расписание",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-legkaaya-вид-l",
-          "menuName": null,
-          "caption": "Вид",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-legkaaya-сотрудник-l",
-          "menuName": null,
-          "caption": "Сотрудник",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-legkaaya-клетка-l",
-          "menuName": null,
-          "caption": "Клетка",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-legkaaya-корм-l",
-          "menuName": null,
-          "caption": "Корм",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "уход",
+          "caption": "Уход",
+          "title": "Уход",
+          "children": [
+            {
+              "link": "i-i-s-legkaaya-корм-l",
+              "menuName": null,
+              "caption": "Корм",
+              "title": "Корм",
+              "children": null
+            },
+            {
+              "link": "i-i-s-legkaaya-расписание-l",
+              "menuName": null,
+              "caption": "Расписание",
+              "title": "Расписание",
+              "children": null
+            },
+            {
+              "link": "i-i-s-legkaaya-клетка-l",
+              "menuName": null,
+              "caption": "Клетка",
+              "title": "Клетка",
+              "children": null
+            }
+          ]
         }
       ]
     }

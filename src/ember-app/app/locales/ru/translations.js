@@ -102,6 +102,50 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        'и-с-з-о-о-п-а-р-к': {
+          caption: 'ИС ЗООПАРК',
+          title: 'ИС ЗООПАРК',
+          сотрудники: {
+            caption: 'Сотрудники',
+            title: 'Сотрудники',
+            'i-i-s-legkaaya-должность-l': {
+              caption: 'Должность',
+              title: 'Должность'
+            },
+            'i-i-s-legkaaya-сотрудник-l': {
+              caption: 'Сотрудник',
+              title: 'Сотрудник'
+            }
+          },
+          'информация-о-животных': {
+            caption: 'Информация о животных',
+            title: 'Информация о животных',
+            'i-i-s-legkaaya-вид-l': {
+              caption: 'Вид',
+              title: 'Вид'
+            },
+            'i-i-s-legkaaya-животные-l': {
+              caption: 'Животные',
+              title: 'Животные'
+            }
+          },
+          уход: {
+            caption: 'Уход',
+            title: 'Уход',
+            'i-i-s-legkaaya-корм-l': {
+              caption: 'Корм',
+              title: 'Корм'
+            },
+            'i-i-s-legkaaya-расписание-l': {
+              caption: 'Расписание',
+              title: 'Расписание'
+            },
+            'i-i-s-legkaaya-клетка-l': {
+              caption: 'Клетка',
+              title: 'Клетка'
+            }
+          }
+        },
         legkaaya: {
           caption: 'Legkaaya',
           title: 'Legkaaya',

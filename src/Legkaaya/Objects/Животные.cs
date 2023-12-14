@@ -40,7 +40,7 @@ namespace IIS.Legkaaya
     [View("ЖивотныеL", new string[] {
             "НомерЖивотного as \'Номер животного\'",
             "Кличка as \'Кличка\'",
-            "Сотрудник.Фамилия as \'Фамилия\'"})]
+            "Сотрудник.Фамилия as \'Ответственный\'"})]
     public class Животные : ICSSoft.STORMNET.DataObject
     {
         

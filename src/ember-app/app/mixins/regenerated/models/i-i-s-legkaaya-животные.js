@@ -62,8 +62,8 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЖивотныеL', 'i-i-s-legkaaya-животные', {
     номерЖивотного: attr('Номер животного', { index: 0 }),
     кличка: attr('Кличка', { index: 1 }),
-    сотрудник: belongsTo('i-i-s-legkaaya-сотрудник', 'Фамилия', {
-      фамилия: attr('Фамилия', { index: 2 })
+    сотрудник: belongsTo('i-i-s-legkaaya-сотрудник', 'Ответственный', {
+      фамилия: attr('Ответственный', { index: 2 })
     }, { index: -1, hidden: true })
   });
 };
